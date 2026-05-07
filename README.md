@@ -13,8 +13,8 @@
         [x] diff, 
         [x] status, 
         [x] rm/mv, etc.
-4. [ ] Experimentieren Sie mit Zeitreisen!
-5. [ ] Erstellen Sie zwei unterschiedliche aber ähnliche Branches, wechseln Sie hin und her und mergen sie diese Branches dann wieder!
+4. [x] Experimentieren Sie mit Zeitreisen!
+5. [x] Erstellen Sie zwei unterschiedliche aber ähnliche Branches, wechseln Sie hin und her und mergen sie diese Branches dann wieder!
 6. [ ] Erstellen Sie in GitHub einen Pull-Request bezugnehmend auf https://github.com/edlich/education! (was kleines, nützliches, witziges, etc., aber nicht via Shell, sondern via GitHub click!)
 
 
@@ -118,3 +118,15 @@
 - nutze Befehl: 'git checkout bfdd7bf'
 - das Projekt ist daraufhin auf dem Stand des errsten commits (alle files außer README.md sind weg, README.md beinhaltet nur eine Zeile, ABER interessanterweise wurde der Ordner pics nicht entfernt)
 - nutze Befehl: 'git checkout main' um auf den aktuellen Stand zurück zu wechseln 
+
+
+## 5.
+
+- erstelle zwei branches
+- nutze Befehl: 'git branch feature-branch-1'
+- nutze Befehl: 'git branch feature-branch-2'
+- wechsel zu branch 1
+- nutze Befehl: 'git checkout feature-branch-1'
+- ändere etwas am Branch (neue Datei 1.txt, add und commit)
+- wechsel zu branch 2
+- nutze Befehl: 'git checkout feature-branch-2'
