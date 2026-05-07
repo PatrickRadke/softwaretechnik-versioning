@@ -110,3 +110,11 @@
 - Ergebnis repo:
 
 ![screenshot.png](pics/push.png)
+
+
+## 4.
+
+- suche früheren commit herau --> first commit "bfdd7bf521b73f2dbb71e3ec8486007b71789738"
+- nutze Befehl: 'git checkout bfdd7bf'
+- das Projekt ist daraufhin auf dem Stand des errsten commits (alle files außer README.md sind weg, README.md beinhaltet nur eine Zeile, ABER interessanterweise wurde der Ordner pics nicht entfernt)
+- nutze Befehl: 'git checkout main' um auf den aktuellen Stand zurück zu wechseln 
