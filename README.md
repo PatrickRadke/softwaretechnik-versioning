@@ -9,10 +9,10 @@
         [x] push, 
         [x] pull, 
         [x] add, 
-        [ ] commit, 
+        [x] commit, 
         [x] diff, 
-        [ ] status, 
-        [ ] rm/mv, etc.
+        [x] status, 
+        [x] rm/mv, etc.
 4. [ ] Experimentieren Sie mit Zeitreisen!
 5. [ ] Erstellen Sie zwei unterschiedliche aber ähnliche Branches, wechseln Sie hin und her und mergen sie diese Branches dann wieder!
 6. [ ] Erstellen Sie in GitHub einen Pull-Request bezugnehmend auf https://github.com/edlich/education! (was kleines, nützliches, witziges, etc., aber nicht via Shell, sondern via GitHub click!)
@@ -45,13 +45,6 @@
 ![screenshot.png](pics/add.png)
 
 
-### push
-
-- nutze Befehl: 'git push'
-- Ergebnis:
-
-![screenshot.png](pics/push.png)
-
 
 ### diff
 
@@ -61,7 +54,7 @@
 ![screenshot.png](pics/diff.png)
 
 
-### git pull
+### pull
 
 - nutze Befehl: 'git pull'
 - Ergebnis:
@@ -69,4 +62,46 @@
 ![screenshot.png](pics/pull.png)
 
 
-### 
+### commit
+
+- nutze Befehl: 'git commit -m "hello world und pics zugefügt"'
+- Ergebnis Projekt:
+
+![screenshot.png](pics/commit-local.png)
+
+
+### status
+
+- nutze Befehl: 'git status'
+- Ergebnis:
+![screenshot.png](pics/status.png)
+
+
+
+### rm
+
+- lege Datei an, die gelöscht werden soll: fileToDelete.txt
+- adde und committe die Datei
+- nutze Befehl: 'git rm fileToDelete.txt'
+- Ergebnis:
+
+![screenshot.png](pics/rm.png)
+
+
+### mv
+
+- lege Datei an, die verschoben oder umbenannt werden soll: fileToMoveOrRename.txt
+- adde und comitte die Datei
+- nutze Befehl: 'git mv fileToMoveOrRename.txt file1.txt'
+- Ergebnis:
+
+![screenshot.png](pics/mv.png)
+(der Befehl gab keine weitere Bestätigung aber die Datei war danach umbenannt)
+
+
+### push
+
+- commite letzten aktuellen Stand
+- nutze Befehl: 'git push'
+- Ergebnis:
+
