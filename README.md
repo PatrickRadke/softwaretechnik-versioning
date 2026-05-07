@@ -130,3 +130,13 @@
 - ändere etwas am Branch (neue Datei 1.txt, add und commit)
 - wechsel zu branch 2
 - nutze Befehl: 'git checkout feature-branch-2'
+- ändere etwas am Branch (neue Datei 2.txt, add und commit)
+- wechsel in branch main: 'git checkout main'
+- merge die branches:
+    - git merge feature-branch-1
+    - git merge feature-branch-2
+- prüfe branches: 'git log --graph --oneline --all'
+
+![screenshot.png](pics/log.png)
+
+- add, commit und push den letzten Stand
