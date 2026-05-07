@@ -103,5 +103,10 @@
 
 - commite letzten aktuellen Stand
 - nutze Befehl: 'git push'
-- Ergebnis:
+- Ergebnis lokal:
 
+![screenshot.png](pics/pushLokal.png)
+
+- Ergebnis repo:
+
+![screenshot.png](pics/push.png)
