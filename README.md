@@ -15,7 +15,7 @@
         [x] rm/mv, etc.
 4. [x] Experimentieren Sie mit Zeitreisen!
 5. [x] Erstellen Sie zwei unterschiedliche aber ähnliche Branches, wechseln Sie hin und her und mergen sie diese Branches dann wieder!
-6. [ ] Erstellen Sie in GitHub einen Pull-Request bezugnehmend auf https://github.com/edlich/education! (was kleines, nützliches, witziges, etc., aber nicht via Shell, sondern via GitHub click!)
+6. [x] Erstellen Sie in GitHub einen Pull-Request bezugnehmend auf https://github.com/edlich/education! (was kleines, nützliches, witziges, etc., aber nicht via Shell, sondern via GitHub click!)
 
 
 
@@ -140,3 +140,19 @@
 ![screenshot.png](pics/log.png)
 
 - add, commit und push den letzten Stand
+
+
+## 6.
+
+- gehe auf https://github.com/edlich/education/
+- versuche Datei zuzufügen -> Fehlermeldung "An unexpected error occurred. Please try again."
+- Test in anderem Browser -> gleiche Fehlermeldung
+
+![screenshot.png](pics/error.png)
+
+- versuche README.md des repos zu berabeiten statt neue Datei zu erstellen -> das funktioniert
+- Pull Request erstellt: 38eba50e4b7709e2ecf7915473eb6754d30e061a
+
+![screenshot.png](pics/pullRequest.png)
+
+- adde, committe und pushe alle Änderungen und gebe Aufgabe ab
